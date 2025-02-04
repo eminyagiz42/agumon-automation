@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Agumon Test Automation Suite" verbose="10" configfailurepolicy="skip">
+
+    <listeners>
+        <listener class-name="com.agumon.utility.listener.AgumonTestNGListener"/>
+    </listeners>
+
+    <test name="Running Test on Agumon TestNG Runner ">
+        <classes>
+            <class name="com.agumon.runner.testng.AgumonTestNGRunner"/>
+        </classes>
+    </test>
+
+
+    <!--This testng runners bellow can be used to start selected scenarios -->
+    <!--
+    <class name="com.agumon.runner.testng.story.BillingTestNGRunner"/>
+    <class name="com.agumon.runner.testng.story.CartTestNGRunner"/>
+    <class name="com.agumon.runner.testng.story.HeaderTestNGRunner"/>
+    <class name="com.agumon.runner.testng.story.LoginTestNGRunner"/>
+    <class name="com.agumon.runner.testng.story.MyListTestNGRunner"/>
+    <class name="com.agumon.runner.testng.story.OrdersTestNGRunner"/>
+    <class name="com.agumon.runner.testng.story.PaymentTestNGRunner"/>
+    <class name="com.agumon.runner.testng.story.PDPTestNGRunner"/>
+    <class name="com.agumon.runner.testng.story.PLPTestNGRunner"/>
+    <class name="com.agumon.runner.testng.story.QuickOrderTestNGRunner"/>
+    <class name="com.agumon.runner.testng.story.QuotesTestNGRunner"/>
+    <class name="com.agumon.runner.testng.story.RetailPricingTestNGRunner"/>
+    -->
+
+    <!--This testng runners bellow can be used to create quickly step definition snippets for test scenarios -->
+    <!--
+    <class name="com.agumon.runner.testng.SnippetsTestNGRunner"/>
+    -->
+
+</suite>
+

@@ -1,0 +1,76 @@
+passColor: eb241
+failColor: c70d0f
+skipColor: d0ae8b
+displayFeature: false
+displayScenario: true
+displayDetailed: true
+displayAttached: false
+displayExpanded: true
+displayTag: false
+
+dashboardConfig:
+   title: Agumon Test Automation PDF Report
+   dataBackgroundColor: 4F0CC8
+   titleColor: FF0000
+   dateColor: 000000
+   timeColor: 000000
+   dial:
+      featureRanges: 60 95
+      scenarioRanges: 70 90
+      stepRanges: 75 85
+      badColor: f768a1
+      averageColor: 93ffff
+      goodColor: 0b7a53
+
+summaryConfig:
+   totalColor: FF0000
+   durationColor: FF0000
+
+tagConfig:
+   totalColor: FF0000
+
+featureConfig:
+   totalColor: FF0000
+   durationColor: FF0000
+
+scenarioConfig:
+   totalColor: FF0000
+   durationColor: FF0000
+
+detailedFeatureConfig:
+   featureNameColor: FF0000
+   startEndTimeColor: 000000
+   tagColor: 000000
+   dataHeaderColor: FFFFFF
+   dataBackgroundColor: 000000
+   totalColor: 0080ff
+   durationColor: FFFFFF
+   durationBackgroundColor: 000000
+
+detailedScenarioConfig:
+   featureNameColor: 000000
+   scenarioNameColor: FF0000
+   startEndTimeColor: 000000
+   tagColor: 000000
+   dataHeaderColor: FFFFFF
+   dataBackgroundColor: 000000
+   totalColor: 0080ff
+   durationColor: FFFFFF
+   durationBackgroundColor: 000000
+   stepChartBarColor: 7f32a8
+
+detailedStepHookConfig:
+   stepTextColor: 0080ff
+   stepBackgroundColor: FFFFFF
+   hookTextColor: 00FF00
+   hookBackgroundColor: FFFFFF
+   durationColor: FF0000
+   errorMsgColor: 000000
+   logMsgColor: 000000
+   #skipHooks: true
+   #skipScenarioHooks: false
+   #skipStepHooks: false
+   #skipScenarioBeforeHooks: false
+   #skipScenarioAfterHooks: false
+   #skipStepBeforeHooks: false
+   #skipStepAfterHooks: false
