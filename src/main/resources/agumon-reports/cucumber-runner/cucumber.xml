@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="6.354" tests="1" skipped="0" failures="1" errors="0">
+<testcase classname="DTA 1 Catalog" name="TC2_Catalog Check the Category link directs user to the Category PLP" time="5.97">
+<failure/>
+<system-out><![CDATA[
+Given I am on the homepage..................................................passed
+Given user enter the "standard_user" as username and "secret_sauce" as password and clicks sign in.passed
+When verify user is logged in...............................................undefined
+Then the user is landed on the category PLP.................................skipped
+]]></system-out>
+</testcase>
+</testsuite>

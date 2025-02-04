@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Agumon Api Test  Suite" verbose="10" configfailurepolicy="skip">
+
+    <test name="Running Api Test on Agumon ">
+        <classes>
+            <class name="com.agumon.api.AgumonLoginApiTest">
+                <methods>
+                    <include name="loginTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
+
