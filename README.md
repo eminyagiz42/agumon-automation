@@ -1,4 +1,4 @@
-# Agumon Test Automation Project #
+# <img src="https://static.wikia.nocookie.net/digimonadventure6597/images/6/64/Agumon01.png" alt="Description" width="34"> Agumon Test Automation Project # 
 
 This is a selenium test automation project for Sauce Demo E-commerce Project. It currently based on selenium framework, cucumber as BDD, and we use maven as project build tool.
 
@@ -16,3 +16,6 @@ This is a selenium test automation project for Sauce Demo E-commerce Project. It
 #### Make sure that you run checkstyle and fix if it has any suggestion
 
 mvn checkstyle:check
+
+
+
